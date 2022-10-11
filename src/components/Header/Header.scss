@@ -1,0 +1,38 @@
+.navigator{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.nav{
+    width: 830px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    gap: 155px;
+    position:absolute;
+    top: 80px;
+    right: 0;
+    padding: 0 100px;
+    backdrop-filter: blur(40.7742px);
+    li a{
+        color: white;
+        :hover{
+        color: aliceblue;
+        
+        }
+    }
+   
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    // background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    
+}
